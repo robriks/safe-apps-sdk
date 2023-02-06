@@ -1,5 +1,5 @@
 import { Table } from '@gnosis.pm/safe-react-components'
-import { TokenBalance, TokenInfo } from '@gnosis.pm/safe-apps-sdk'
+import { TokenBalance, TokenInfo } from '@safe-global/safe-apps-react-sdk'
 import BigNumber from 'bignumber.js'
 
 const ethToken: TokenInfo = {

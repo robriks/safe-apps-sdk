@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Title, TextField, Button } from '@gnosis.pm/safe-react-components'
-import { useSafeAppsSDK } from '@gnosis.pm/safe-apps-react-sdk'
+import { useSafeAppsSDK } from '@safe-global/safe-apps-react-sdk'
 import { useSafeBalances } from './hooks/useSafeBalances'
 import BalancesTable from './components/BalancesTable'
 import { getTransferTransaction } from './api/transfers'
